@@ -242,13 +242,16 @@ td {
 
 @media (max-width: 1024px) {
   #card {
-    width: 80%;
+    width: 90%;
   }
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
   #card {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -259,22 +262,29 @@ td {
   #card {
     width: 100%;
     margin: 10px 0;
-    height: auto;
   }
   #img, table {
     width: 95%;
   }
+  #description, #time, #ingredients, #instruction, #nutrition {
+    padding: 0 10px;
+  }
 }
 
 @media (max-width: 320px) {
-  body, #card {
+  body {
+    font-size: 12px;
+  }
+  #card {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: auto;
   }
   #img, table {
     width: 100%;
+  }
+  #description, #time, #ingredients, #instruction, #nutrition {
+    padding: 0 5px;
   }
 }
 
