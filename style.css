@@ -240,38 +240,18 @@ td {
   color:#a7480a;
 }
 
-@media (max-width: 1024px) {
-  #card {
-    width: 90%;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   body {
-    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #card {
-    width: 95%;
+    margin: 0;
   }
 }
 
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-  #card {
-    width: 100%;
-    margin: 10px 0;
-  }
-  #img, table {
-    width: 95%;
-  }
-  #description, #time, #ingredients, #instruction, #nutrition {
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   body {
     font-size: 12px;
   }
@@ -279,12 +259,11 @@ td {
     padding: 0;
     margin: 0;
     width: 100%;
+    height:1440px
   }
   #img, table {
     width: 100%;
   }
-  #description, #time, #ingredients, #instruction, #nutrition {
-    padding: 0 5px;
-  }
 }
+
 
