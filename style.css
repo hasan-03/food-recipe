@@ -240,6 +240,32 @@ td {
   color:#a7480a;
 }
 
+@media (max-width: 1024px) {
+  #card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  #card {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+  }
+  #img, table {
+    width: 95%;
+  }
+}
+
 @media (max-width: 320px) {
   body, #card {
     padding: 0;
@@ -251,3 +277,4 @@ td {
     width: 100%;
   }
 }
+
