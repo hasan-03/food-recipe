@@ -239,3 +239,10 @@ td {
   font-weight:700;
   color:#a7480a;
 }
+
+@media (max-width: 320px) {
+  #card {
+    width:auto;
+    height:auto;
+  }
+}
