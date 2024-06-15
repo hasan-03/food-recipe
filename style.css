@@ -242,9 +242,12 @@ td {
 
 @media (max-width: 320px) {
   body, #card {
-    padding:0;
-    margin:0;    
-    width:100%;
-    height:auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  #img, table {
+    width: 100%;
   }
 }
